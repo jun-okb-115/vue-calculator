@@ -1,4 +1,4 @@
-# vue-calculator
+# vue-calculator (Vueの電卓アプリ)
 
 ## Project setup
 ```
