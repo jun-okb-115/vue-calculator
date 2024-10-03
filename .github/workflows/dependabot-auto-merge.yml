@@ -18,6 +18,8 @@ jobs:
           
       - name: echo
         run: echo github.actor
+        env:
+          GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
 
       # - name: Enable auto-merge for Dependabot PRs
       #   if: ${{ steps.metadata.outputs.update-type == 'version-update:semver-patch' }}
